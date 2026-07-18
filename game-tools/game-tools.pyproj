@@ -50,7 +50,6 @@
     <None Include="commands.txt">
       <SubType>Code</SubType>
     </None>
-    <Content Include="db.sqlite3" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
