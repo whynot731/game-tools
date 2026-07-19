@@ -47,15 +47,24 @@
     <Compile Include="WuWa\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="WuWa\templates\WuWa\home.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="WuWa\templates\WuWa\materials.html">
+      <SubType>Code</SubType>
+    </Content>
     <None Include="commands.txt">
       <SubType>Code</SubType>
     </None>
+    <Content Include="db.sqlite3" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="game_tools\" />
     <Folder Include="WuWa\" />
     <Folder Include="WuWa\migrations\" />
+    <Folder Include="WuWa\templates\" />
+    <Folder Include="WuWa\templates\WuWa\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
