@@ -364,3 +364,5 @@ FodyWeavers.xsd
 /game-tools/commands.txt
 /game-tools/db.sqlite3
 /game-tools/notes.txt
+/game-tools/start.ps1
+/game-tools/activate.bat

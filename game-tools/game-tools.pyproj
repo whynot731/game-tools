@@ -47,6 +47,16 @@
     <Compile Include="WuWa\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="notes.txt">
+      <SubType>Code</SubType>
+    </None>
+    <None Include="start.ps1" />
+    <Content Include="WuWa\static\WuWa\styles.css">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="WuWa\templates\WuWa\base.html">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="WuWa\templates\WuWa\home.html">
       <SubType>Code</SubType>
     </Content>
@@ -63,6 +73,8 @@
     <Folder Include="game_tools\" />
     <Folder Include="WuWa\" />
     <Folder Include="WuWa\migrations\" />
+    <Folder Include="WuWa\static\" />
+    <Folder Include="WuWa\static\WuWa\" />
     <Folder Include="WuWa\templates\" />
     <Folder Include="WuWa\templates\WuWa\" />
   </ItemGroup>
